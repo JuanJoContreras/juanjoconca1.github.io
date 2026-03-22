@@ -65,7 +65,8 @@
     .section-title { font-size: clamp(1.8rem,3vw,2.5rem); font-weight: 700; }
     .section-title span { background: linear-gradient(135deg,var(--primary),var(--secondary)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
     .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; }
-    .about-avatar { width: 220px; height: 220px; border-radius: 50%; background: linear-gradient(135deg,var(--primary),var(--secondary)); display: flex; align-items: center; justify-content: center; font-size: 5rem; box-shadow: 0 0 60px rgba(108,99,255,.35); margin: auto; }
+    .about-avatar { width: 220px; height: 220px; border-radius: 50%; background: linear-gradient(135deg,var(--primary),var(--secondary)); display: flex; align-items: center; justify-content: center; font-size: 5rem; box-shadow: 0 0 60px rgba(108,99,255,.35); margin: auto; overflow: hidden; }
+    .about-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
     .about-text h3 { font-size: 1.6rem; font-weight: 700; margin-bottom: 1rem; }
     .about-text p { color: var(--text-muted); margin-bottom: 1rem; }
     .about-stats { display: flex; gap: 2rem; margin-top: 1.5rem; }
@@ -135,7 +136,7 @@
     <div class="container">
       <div class="about-grid">
         <div class="fade-in">
-          <div class="about-avatar">&#128104;&#8205;&#128187;</div>
+          <div class="about-avatar"><img src="Imgen%20Linkdn%20Feb262.png" alt="Juan Jo Contreras"></div>
         </div>
         <div class="about-text fade-in">
           <h3>Quien soy?</h3>
